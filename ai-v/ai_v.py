@@ -21,7 +21,7 @@ class ComplexNeuralNetwork(nn.Module):
 # Создаем нейронную сеть
 model = ComplexNeuralNetwork()
 
-# Визуализация передачи данных от входного слоя к выходному слою в реальном времени
+
 input_data = torch.tensor([[0.5], [1.0], [1.5]])  # Входные данные
 
 plt.figure(figsize=(10, 8))
