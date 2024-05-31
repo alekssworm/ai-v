@@ -22,7 +22,7 @@ class ComplexNeuralNetwork(nn.Module):
 model = ComplexNeuralNetwork()
 
 
-input_data = torch.tensor([[0.5], [1.0], [1.5]])  # ¬ходные данные
+input_data = torch.tensor([[0.5], [1.0], [1.5]])  
 
 plt.figure(figsize=(10, 8))
 
